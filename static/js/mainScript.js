@@ -27,5 +27,6 @@ function draw() {
 	drawFlower(x, y, diameter);
 	if (frameCount === 1000) {
 		clear();
+		frameCount = 0;
 	}
 }
